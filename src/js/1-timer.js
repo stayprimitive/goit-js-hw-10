@@ -16,6 +16,8 @@ const hoursSpan = document.querySelector('span[data-hours]');
 const minutesSpan = document.querySelector('span[data-minutes]');
 const secondsSpan = document.querySelector('span[data-seconds]');
 
+button.disabled = true;
+
 const options = {
   enableTime: true,
   time_24hr: true,
