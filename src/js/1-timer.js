@@ -10,14 +10,17 @@ import "izitoast/dist/css/iziToast.min.css"
 let userSelectedDate;
 let timeInterval;
 
-const button = document.querySelector('button[data-start]');
+// Timer //
 const daysSpan = document.querySelector('span[data-days]');
 const hoursSpan = document.querySelector('span[data-hours]');
 const minutesSpan = document.querySelector('span[data-minutes]');
 const secondsSpan = document.querySelector('span[data-seconds]');
 
+// Button //
+const button = document.querySelector('button[data-start]');
 button.disabled = true;
 
+// Options //
 const options = {
   enableTime: true,
   time_24hr: true,

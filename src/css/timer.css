@@ -1,4 +1,6 @@
-/* ----- TIMER ------- */
+a {
+  text-decoration: none
+}
 
 .timer{
       display: flex;
@@ -7,7 +9,7 @@
 }
 
 .timer-sec{
-  margin: 50px;
+  margin: 10px;
 
 }
 
@@ -34,7 +36,6 @@ input:active {
 
 
 button {
-
   align-items: center;
   justify-content: center;
   flex-direction: row;

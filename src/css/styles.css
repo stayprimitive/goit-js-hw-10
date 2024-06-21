@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+a{
+    text-decoration: none
+}
